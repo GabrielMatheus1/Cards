@@ -1,0 +1,134 @@
+body {
+    font-family: 'Outfit', sans-serif, Arial;
+    background-image: url('../src/img/fundo.jpg');
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+}
+
+/* Header */
+.cabecalho {
+    color: rgb(248, 98, 11);
+    font-size: 50px;
+    text-decoration:underline rgb(83, 75, 75);
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Main */
+.personagens-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;    
+}
+
+/* Botões para os lados */
+.btn-seta {
+    width: 0;
+    border: none;
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Imagem dos botões */
+.btn-seta .img-btn {
+    width: 100px;
+}
+
+/* Lista não ordenada */
+.lista-personagens {
+    width: 380px;
+    height: 470px;
+    position: relative;
+}
+
+/* Itens da lista */
+.cartao {
+    position: absolute;
+    padding: 10px;
+    border: solid 5px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255, 0.6);
+}
+#card1 {
+    display: block;
+}
+#card2 {
+    display: none;
+}
+#card3 {
+    display: none;
+}
+
+/* Titulo do Card */
+.nome {
+    background-color: rgba(250, 121, 0, 0.938);
+    padding: 8px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Imagem dos personagens */
+.imagem-personagem {
+    width: 100%;
+    max-height: 280px;
+    margin-top: 10px;
+}
+
+/* Descrição dos personagens */
+.cartao .descricao {
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    text-align: justify;
+    max-height: 100px;
+    padding: 5px;
+    overflow:hidden;
+    overflow-y: scroll;
+}
+.title {
+    text-align: center;
+}
+
+/* Tipo e Fraqueza */
+.cartao .descricao .tip {
+    text-align: center;
+    padding-bottom: 15px;
+    max-height: 100px;
+}
+#fraq {
+    margin-top: 8px;
+}
+
+/* Elementos */
+.elementos {
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 25px;
+    margin: 10px;
+}
+.fogo {
+    background-color: rgb(241, 90, 30);
+}
+.agua {
+    background-color: rgb(0, 89, 255);
+}
+.chao {
+    background-color: rgb(107, 58, 49);
+}
+.rocha {
+    background-color: gray;
+}
+
+
+
+ 
+
+
+
