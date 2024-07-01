@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards Pokemons</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="cabecalho">Pokémon de Fogo</h1>
+    </header>
+
+    <main class="personagens-slider">
+            <!-- botão para voltar f/ funcionalidade -->
+        <button class="btn-seta btn-voltar" id="btn-voltar" onclick="back()">
+            <img src="./src/img/esquerda.png" alt="botão para voltar" class="img-btn" id="btn-voltar">
+        </button>
+
+        <ul class="lista-personagens">   
+                <!-- primeira carta ok -->
+            <li class="cartao" id="card1">
+                <h2 class="nome">Charmander</h2>
+                <img src="./src/img/charnabder-removebg-preview.png"
+                    alt="imagem do Pokémon Charmander, um Pokémon de fogo" class="imagem-personagem">
+                    
+                   
+                <div class="descricao">
+                     
+                    <div class="tip">
+                        <h4>Elemento</h4>
+                        <span class="fogo elementos">Fogo</span>
+                        <h4 id="fraq">Fraquezas</h4>
+                        <span class="agua elementos">Água</span>
+                        <span class="chao elementos">Terrestre</span>
+                        <span class="rocha elementos">Rocha</span>
+                        </div>
+                        <h3 class="title">Descrição</h3>
+                    <p class="texto"> chama em sua cauda mostra a força de sua força vital. Se Charmander é fraco, a chama também queima fracamente.</p>
+                    <p>Seu peso medio é de 8,5 KG</p>
+                    <p>Sua altura media é de 0,6 M</p>
+                    <h5>informaçoes obtidas do site <a href="https://www.pokemon.com/br/pokedex/charmander">Pokédex</a></h5>
+
+                </div>
+            </li>
+
+            <li class="cartao" id="card2">
+                <h2 class="nome">Charmeleon</h2>
+                <img src="./src/img/charmeleon.png" alt="imagem do Pokémon Charmeleon, um Pokémon de fogo" class="imagem-personagem">
+                <div class="descricao">
+                    <h3 class="title">Descrição</h3>
+                    <p class="texto">Quando ele balança sua cauda ardente, a temperatura ao seu redor sobe cada vez mais, atormentando
+                        seus oponentes.</p>
+                </div>
+            </li>
+
+            <li class="cartao" id="card3">
+                <h2 class="nome">Charizard</h2>
+                <img src="./src/img/charizard.png" alt="imagem do Pokémon Charizard, um Pokémon de fogo" class="imagem-personagem">
+                <div class="descricao">
+                    <h3 class="title">Descrição</h3>
+                    <p class="texto">Se Charizard ficar verdadeiramente irritado, a chama na ponta de sua cauda queima em um tom azul claro.</p>
+                </div>
+            </li>
+        </ul>
+            <!-- botão para avançar f/ funcionalidade -->
+        <button class="btn-seta btn-avancar" id="btn-avancar" onclick="next()">
+            <img src="./src/img/direita.png" alt="botão para avançar" class="img-btn" id="btn-avancar">
+        </button>
+
+    </main>
+    <script src="./interatividade.js"></script>
+</body>
+
+</html>
