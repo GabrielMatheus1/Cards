@@ -1,0 +1,32 @@
+@media(max-width: 450px){
+    .personagens-slider {
+        width: 100%;
+        gap: 15px;
+        margin-top: 30px;
+    }
+    .lista-personagens {
+        width: 250px;
+        margin: 13px;
+    }
+    h1.cabecalho {
+        font-size: 40px;
+    }
+    body {
+    background-image: url('../src/img/fundo.jpg');
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+    }
+}
+
+@media(min-height: 800px) and (max-height: 1000px){
+    .personagens-slider{
+    padding-top: 50px;
+    }
+}
+
+@media(min-height: 1001px){
+    .personagens-slider{
+    padding-top: 150px;
+    }
+}
