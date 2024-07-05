@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -21,7 +21,7 @@
 
     <main class="personagens-slider">
             <!-- botão para voltar f/ funcionalidade -->
-        <button class="btn-seta btn-voltar" id="btn-voltar" onclick="back()">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
             <img src="./src/img/esquerda.png" alt="botão para voltar" class="img-btn" id="btn-voltar">
         </button>
 
@@ -29,45 +29,63 @@
                 <!-- primeira carta ok -->
             <li class="cartao" id="card1">
                 <h2 class="nome">Charmander</h2>
-                <img src="./src/img/charnabder-removebg-preview.png"
-                    alt="imagem do Pokémon Charmander, um Pokémon de fogo" class="imagem-personagem">
-                    
-                   
+                <img src="./src/img/charnabder-removebg-preview.png" alt="imagem do Pokémon Charmander, um Pokémon de fogo" class="imagem-personagem">
+                <h3 class="Titulo">Descrição</h3>
                 <div class="descricao">
-                     
                     <div class="tip">
-                        <h4>Elemento</h4>
-                        <span class="fogo elementos">Fogo</span>
-                        <h4 id="fraq">Fraquezas</h4>
-                        <span class="agua elementos">Água</span>
-                        <span class="chao elementos">Terrestre</span>
-                        <span class="rocha elementos">Rocha</span>
-                        </div>
-                        <h3 class="title">Descrição</h3>
+                        <h4 class="fraq">Elemento</h4>
+                            <span class="fogo elementos">Fogo</span>
+                        <h4 class="fraq">Fraquezas</h4>
+                            <span class="agua elementos">Água</span>
+                            <span class="chao elementos">Terrestre</span>
+                            <span class="rocha elementos">Rocha</span>
+                    </div>
+                        <br>
                     <p class="texto"> chama em sua cauda mostra a força de sua força vital. Se Charmander é fraco, a chama também queima fracamente.</p>
                     <p>Seu peso medio é de 8,5 KG</p>
                     <p>Sua altura media é de 0,6 M</p>
-                    <h5>informaçoes obtidas do site <a href="https://www.pokemon.com/br/pokedex/charmander">Pokédex</a></h5>
-
+                        <h5>informaçoes obtidas do site <a href="https://www.pokemon.com/br/pokedex/charmander">Pokédex</a></h5>
                 </div>
             </li>
-
+                <!-- segunda carta ok -->
             <li class="cartao" id="card2">
                 <h2 class="nome">Charmeleon</h2>
                 <img src="./src/img/charmeleon.png" alt="imagem do Pokémon Charmeleon, um Pokémon de fogo" class="imagem-personagem">
+                <h3 class="Titulo">Descrição</h3>
                 <div class="descricao">
-                    <h3 class="title">Descrição</h3>
-                    <p class="texto">Quando ele balança sua cauda ardente, a temperatura ao seu redor sobe cada vez mais, atormentando
-                        seus oponentes.</p>
+                    <div class="tip">
+                        <h4 class="fraq">Elemento</h4>
+                            <span class="fogo elementos">Fogo</span>
+                        <h4 class="fraq">Fraquezas</h4>
+                            <span class="agua elementos">Água</span>
+                            <span class="chao elementos">Terrestre</span>
+                            <span class="rocha elementos">Rocha</span>
+                    </div>
+                    <p class="texto">Quando ele balança sua cauda ardente, a temperatura ao seu redor sobe cada vez mais, atormentando seus oponentes.</p>
+                    <p>Seu peso medio é de 19 KG</p>
+                    <p>Sua altura media é de 1,1 M</p>
+                        <h5>informaçoes obtidas do site <a href="https://www.pokemon.com/br/pokedex/charmeleon">Pokédex</a></h5>
                 </div>
             </li>
-
+                <!-- terceira carta ok -->
             <li class="cartao" id="card3">
                 <h2 class="nome">Charizard</h2>
                 <img src="./src/img/charizard.png" alt="imagem do Pokémon Charizard, um Pokémon de fogo" class="imagem-personagem">
+                <h3 class="Titulo">Descrição</h3>
                 <div class="descricao">
-                    <h3 class="title">Descrição</h3>
+                    <div class="tip">
+                        <h4 class="fraq">Elemento</h4>
+                            <span class="fogo elementos">Fogo</span>
+                            <span class="voador elementos">Voador</span>
+                        <h4 class="fraq">Fraquezas</h4>
+                            <span class="agua elementos">Água</span>
+                            <span class="chao elementos">Terrestre</span>
+                            <span class="rocha elementos">Rocha<span class="damege">dano 4x</span></span>
+                    </div>
                     <p class="texto">Se Charizard ficar verdadeiramente irritado, a chama na ponta de sua cauda queima em um tom azul claro.</p>
+                    <p>Seu peso medio é de 90,5 KG</p>
+                    <p>Sua altura media é de 1,7 M</p>
+                        <h5>informaçoes obtidas do site <a href="https://www.pokemon.com/br/pokedex/charizard">Pokédex</a></h5>
                 </div>
             </li>
         </ul>

@@ -54,13 +54,13 @@ body {
     background-color: rgb(255, 255, 255, 0.6);
 }
 #card1 {
-    display: block;
+    display: none;
 }
 #card2 {
     display: none;
 }
 #card3 {
-    display: none;
+    display: block;
 }
 
 /* Titulo do Card */
@@ -82,18 +82,22 @@ body {
 }
 
 /* Descrição dos personagens */
+.Titulo {
+    text-align: center;
+    background-color: white;
+}
+
 .cartao .descricao {
     background-color: white;
     border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     text-align: justify;
     max-height: 100px;
     padding: 5px;
     overflow:hidden;
     overflow-y: scroll;
 }
-.title {
-    text-align: center;
-}
+
 
 /* Tipo e Fraqueza */
 .cartao .descricao .tip {
@@ -101,8 +105,8 @@ body {
     padding-bottom: 15px;
     max-height: 100px;
 }
-#fraq {
-    margin-top: 8px;
+.fraq {
+    margin-top: 5px;
 }
 
 /* Elementos */
@@ -112,6 +116,9 @@ body {
     padding-right: 5px;
     border-radius: 25px;
     margin: 10px;
+}
+.voador {
+    background: linear-gradient(to top, rgb(52, 52, 77) 0%, rgb(5, 122, 255) 50%, rgb(4, 0, 255) 100%);
 }
 .fogo {
     background-color: rgb(241, 90, 30);
@@ -123,7 +130,11 @@ body {
     background-color: rgb(107, 58, 49);
 }
 .rocha {
-    background-color: gray;
+    background-color: rgb(83, 83, 83);
+}
+.damege {
+    font-size: 10px;
+    padding-left: 5px;
 }
 
 
