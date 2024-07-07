@@ -5,8 +5,8 @@ const card3 = document.querySelector('#card3');
 const back = document.querySelector('#btn-voltar');
 const next = document.querySelector('#btn-avancar');
 
-let item = 1;
-const totalIntens = 3;
+var item = 1;
+var totalIntens = 3;
 
 function visivel(inicio) {
 
