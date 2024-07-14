@@ -1,6 +1,6 @@
 body {
     font-family: 'Outfit', sans-serif, Arial;
-    background-image: url('../src/img/fundo.jpg');
+    background-image: url('../src/img/fundo001-003.jfif');
     background-size: cover;
     background-attachment:fixed;
     background-position: center;
@@ -8,7 +8,7 @@ body {
 
 /* Header */
 .cabecalho {
-    color: rgb(248, 98, 11);
+    color: rgb(9, 255, 0);
     font-size: 50px;
     text-decoration:underline rgb(83, 75, 75);
     text-align: center;
@@ -55,17 +55,37 @@ body {
 }
 #card1 {
     display: block;
+    .nome{
+    background-color:rgb(9, 255, 0);}
 }
 #card2 {
     display: none;
+    .nome{
+    background-color:rgb(9, 255, 0);}
 }
 #card3 {
     display: none;
+    .nome{
+    background-color:rgb(9, 255, 0);}
+}
+#card4 {
+    display: none;
+    .nome{
+    background-color:rgb(248, 98, 11);}
+}
+#card5 {
+    display: none;    
+    .nome{
+    background-color:rgb(248, 98, 11);}
+}
+#card6 {
+    display: none;    
+    .nome{
+    background-color:rgb(248, 98, 11);}
 }
 
 /* Titulo do Card */
 .nome {
-    background-color: rgba(250, 121, 0, 0.938);
     padding: 8px 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -130,6 +150,18 @@ body {
 }
 .rocha {
     background-color: rgb(83, 83, 83);
+}
+.planta {
+    background-color: rgb(9, 255, 0);
+}
+.venenoso {
+    background-color: rgb(174, 0, 255);
+}
+.gelo {
+    background-color: rgb(20, 192, 192);
+}
+.psiquico {
+    background-color: rgb(255, 1, 234);
 }
 .damege {
     font-size: 10px;
