@@ -56,9 +56,7 @@ function visivel(inicio) {
     } else if (inicio === 5 ) {
 
         card5.style.display = 'block';
-        fundo.style.backgroundImage = 'url(../src/img/fundo004-006.jpg)';
-        txtHeader.innerHTML = 'Pokémon de Fogo';
-        txtHeader.style.color = 'rgb(248, 98, 11)';
+       
 
     } else if (inicio === 6 ) {
 
