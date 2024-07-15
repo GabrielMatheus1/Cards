@@ -27,56 +27,41 @@ function visivel(inicio) {
     card5.style.display = 'none';
     card6.style.display = 'none';
 
-
     if (inicio === 1 ) {
         card1.style.display = 'block';
-        if (card1.style.display === 'block') {
-        fundo.style.backgroundImage = 'url(../src/img/fundo001-003.jfif)';
+        fundo.style.backgroundImage = 'url(./src/img/fundo001-003.jfif)';
         txtHeader.innerHTML = 'Pokémon de Planta';
-        txtHeader.style.color = 'rgb(9, 255, 0)';}
+        txtHeader.style.color = 'rgb(9, 255, 0)';
     } else if (inicio === 2 ) {
         card2.style.display = 'block';
-        if (card2.style.display === 'block') {
-            fundo.style.backgroundImage = 'url(../src/img/fundo001-003.jfif)';
-            txtHeader.innerHTML = 'Pokémon de Planta';
-            txtHeader.style.color = 'rgb(9, 255, 0)';}
     } else if (inicio === 3 ) {
         card3.style.display = 'block';
-        if (card3.style.display === 'block') {
-            fundo.style.backgroundImage = 'url(../src/img/fundo001-003.jfif)';
-            txtHeader.innerHTML = 'Pokémon de Planta';
-            txtHeader.style.color = 'rgb(9, 255, 0)';}
+        fundo.style.backgroundImage = 'url(./src/img/fundo001-003.jfif)';
+        txtHeader.innerHTML = 'Pokémon de Planta';
+        txtHeader.style.color = 'rgb(9, 255, 0)';
     } else if (inicio === 4 ) {
         card4.style.display = 'block';
-        if (card4.style.display === 'block'){
-        fundo.style.backgroundImage = 'url(../src/img/fundo004-006.jpg)';
+        fundo.style.backgroundImage = 'url(./src/img/fundo004-006.jpg)';
         txtHeader.innerHTML = 'Pokémon de Fogo';
-        txtHeader.style.color = 'rgb(248, 98, 11)';}
+        txtHeader.style.color = 'rgb(248, 98, 11)';
     } else if (inicio === 5 ) {
         card5.style.display = 'block';
-        if (card5.style.display === 'block'){
-            fundo.style.backgroundImage = 'url(../src/img/fundo004-006.jpg)';
-            txtHeader.innerHTML = 'Pokémon de Fogo';
-            txtHeader.style.color = 'rgb(248, 98, 11)';}
     } else if (inicio === 6 ) {
         card6.style.display = 'block';
-        if (card6.style.display === 'block'){
-            fundo.style.backgroundImage = 'url(../src/img/fundo004-006.jpg)';
-            txtHeader.innerHTML = 'Pokémon de Fogo';
-            txtHeader.style.color = 'rgb(248, 98, 11)';}
+        fundo.style.backgroundImage = 'url(./src/img/fundo004-006.jpg)';
+        txtHeader.innerHTML = 'Pokémon de Fogo';
+        txtHeader.style.color = 'rgb(248, 98, 11)';
     }
-   
 }
 
-// percorrer os itens voltando//
+ // percorrer os itens voltando//
 function voltar() {
     item--;
     if (item < 1) {
         item = totalItens;
     }
-    visivel(item);
+     visivel(item);
 }
-
 
 // percorrer os itens indo//
 function proxima() {
@@ -90,3 +75,4 @@ function proxima() {
 // evento de click chamando as funções de ida ou volta //
 back.addEventListener('click', voltar);
 next.addEventListener('click', proxima);
+
