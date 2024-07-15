@@ -38,7 +38,7 @@ function visivel(inicio) {
     } else if (inicio === 2 ) {
 
         card2.style.display = 'block';
-        fundo.style.backgroundImage = 'url(../src/img/fundo001-003.jfif)';
+        fundo.style.backgroundImage = 'url(/src/img/fundo001-003.jfif)';
         txtHeader.innerHTML = 'Pokémon de Planta';
         txtHeader.style.color = 'rgb(9, 255, 0)';
 
