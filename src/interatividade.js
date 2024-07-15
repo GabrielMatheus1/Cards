@@ -20,7 +20,12 @@ var totalItens = 6;
 // função responsavel por fazer as alteraçoes //
 function visivel(inicio) {
 
- 
+    card1.style.display = 'none'
+    card2.style.display = 'none'
+    card3.style.display = 'none'
+    card4.style.display = 'none'
+    card5.style.display = 'none'
+    card6.style.display = 'none'
 
 
     if (inicio === 1 ) {
