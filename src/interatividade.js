@@ -20,13 +20,12 @@ var totalItens = 6;
 // função responsavel por fazer as alteraçoes //
 function visivel(inicio) {
 
-    card1.style.display = 'none'
-    card2.style.display = 'none'
-    card3.style.display = 'none'
-    card4.style.display = 'none'
-    card5.style.display = 'none'
-    card6.style.display = 'none'
-
+    card1.style.display = 'none';
+    card2.style.display = 'none';
+    card3.style.display = 'none';
+    card4.style.display = 'none';
+    card5.style.display = 'none';
+    card6.style.display = 'none';
 
     if (inicio == 1 ) {
         card1.style.display = 'block';
@@ -53,7 +52,6 @@ function visivel(inicio) {
         txtHeader.innerHTML = 'Pokémon de Fogo';
         txtHeader.style.color = 'rgb(248, 98, 11)';
     }
-   
 }
 
 // percorrer os itens voltando//
@@ -64,7 +62,6 @@ function voltar() {
     }
     visivel(item);
 }
-
 
 // percorrer os itens indo//
 function proxima() {
