@@ -5,10 +5,9 @@ const card3 = document.querySelector('#card3');
 const card4 = document.querySelector('#card4');
 const card5 = document.querySelector('#card5');
 const card6 = document.querySelector('#card6');
-const fundo = document.querySelector('.page');
 const txtHeader = document.querySelector('.cabecalho');
 const tituloName = document.querySelector('.nome');
-
+const imagem = document.querySelectorAll('.imagem');
 // coleta de informações dos botões // 
 const back = document.querySelector('#btn-voltar');
 const next = document.querySelector('#btn-avancar');
@@ -29,28 +28,36 @@ function visivel(inicio) {
 
     if (inicio === 1 ) {
         card1.style.display = 'block';
-        fundo.style.backgroundImage = 'url(./img/fundo001-003.jfif)';
         txtHeader.innerHTML = 'Pokémon de Planta';
+        imagem[1].classList.remove('selecionada');
+        imagem[0].classList.add('selecionada');
         txtHeader.style.color = 'rgb(9, 255, 0)';
     } else if (inicio === 2 ) {
         card2.style.display = 'block';
+        imagem[1].classList.remove('selecionada');
+        imagem[0].classList.add('selecionada');
     } else if (inicio === 3 ) {
         card3.style.display = 'block';
-        fundo.style.backgroundImage = 'url(./img/fundo001-003.jfif)';
         txtHeader.innerHTML = 'Pokémon de Planta';
+        imagem[1].classList.remove('selecionada');
+        imagem[0].classList.add('selecionada');
         txtHeader.style.color = 'rgb(9, 255, 0)';
     } else if (inicio === 4 ) {
         card4.style.display = 'block';
-        fundo.style.backgroundImage = 'url(./img/fundo004-006.jpg)';
         txtHeader.innerHTML = 'Pokémon de Fogo';
         txtHeader.style.color = 'rgb(248, 98, 11)';
+        imagem[0].classList.remove('selecionada');
+        imagem[1].classList.add('selecionada');
     } else if (inicio === 5 ) {
         card5.style.display = 'block';
+        imagem[0].classList.remove('selecionada');
+        imagem[1].classList.add('selecionada');
     } else if (inicio === 6 ) {
         card6.style.display = 'block';
-        fundo.style.backgroundImage = 'url(./img/fundo004-006.jpg)';
         txtHeader.innerHTML = 'Pokémon de Fogo';
         txtHeader.style.color = 'rgb(248, 98, 11)';
+        imagem[0].classList.remove('selecionada');
+        imagem[1].classList.add('selecionada');
     }
 }
 
@@ -71,6 +78,7 @@ function proxima() {
     }
     visivel(item);
 }
+
 
 // evento de click chamando as funções de ida ou volta //
 back.addEventListener('click', voltar);
