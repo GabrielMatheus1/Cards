@@ -7,7 +7,9 @@ const card5 = document.querySelector('#card5');
 const card6 = document.querySelector('#card6');
 const txtHeader = document.querySelector('.cabecalho');
 const tituloName = document.querySelector('.nome');
+// coleta de informações de todas as imgs com essa classe //
 const imagem = document.querySelectorAll('.imagem');
+
 // coleta de informações dos botões // 
 const back = document.querySelector('#btn-voltar');
 const next = document.querySelector('#btn-avancar');

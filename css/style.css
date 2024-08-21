@@ -2,6 +2,7 @@ body {
     font-family: 'Outfit', sans-serif, Arial;
 }
 
+/* imagens de fundo com animação */
 .imagem {
     display: none;
     position: fixed;
