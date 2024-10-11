@@ -9,7 +9,6 @@ const txtHeader = document.querySelector('.cabecalho');
 const tituloName = document.querySelector('.nome');
 // coleta de informações de todas as imgs com essa classe //
 const imagem = document.querySelectorAll('.imagem');
-
 // coleta de informações dos botões // 
 const back = document.querySelector('#btn-voltar');
 const next = document.querySelector('#btn-avancar');
@@ -17,7 +16,6 @@ const next = document.querySelector('#btn-avancar');
 // item inicial e depois a quantidade de itens //
 var item = 1;
 var totalItens = 6;
-
 // função responsavel por fazer as alteraçoes //
 function visivel(inicio) {
 
@@ -81,8 +79,6 @@ function proxima() {
     visivel(item);
 }
 
-
 // evento de click chamando as funções de ida ou volta //
 back.addEventListener('click', voltar);
 next.addEventListener('click', proxima);
-
