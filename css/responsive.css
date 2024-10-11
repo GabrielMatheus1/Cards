@@ -1,5 +1,4 @@
 @media(max-width: 500px){
-    
     .personagens-slider {
         gap: 20px;
     }
@@ -24,7 +23,6 @@
 }
 
 @media(min-height: 801px) and (max-height: 1000px){
-    
     .cabecalho {
         margin-bottom: 100px;
         font-size: 70px;
@@ -32,7 +30,6 @@
 }
 
 @media(min-height: 1001px){
-
     .cabecalho {
     font-size: 80px;
     margin-bottom: 150px;
