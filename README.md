@@ -1,7 +1,6 @@
 # *PROJETO DE CARDS*
 
-Meu primeiro Projeto com interatividade, no estilo de cartas inspirado no Pokemon. o link de refência esta no final de cada carta,
-os materiais usados para desenvolver esse projeto foram;
+Meu primeiro Projeto com interatividade, no estilo de cartas inspirado no Pokemon, o link de referência está no final de cada carta, os materiais usados para desenvolver esse projeto foram.
 > [MDN Web Docs](https://developer.mozilla.org/pt-BR/);
 
 
@@ -14,4 +13,6 @@ os materiais usados para desenvolver esse projeto foram;
 > link para a [pagina hospedada gratuita no GitHub](https://gabrielmatheus1.github.io/Projeto-Cards/).
 
 
-Espero que goste fico feliz por receber feedback de sujestões e criticas, isso me ajudara a desenvolver melhor meus futuros projetos.
+Espero que gostem fico feliz por receber feedback de sugestões e criticas, isso me ajudará a desenvolver melhor meus futuros projetos.
+
+
