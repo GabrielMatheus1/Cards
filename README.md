@@ -1,6 +1,6 @@
-# *PROJETO DE CARDS*
+# *CARDS*
 
-Meu primeiro Projeto com interatividade, no estilo de cartas inspirado no Pokemon, o link de referência está no final de cada carta, os materiais usados para desenvolver esse projeto foram.
+Meu primeiro Projeto com interatividade, no estilo de cartas inspirado no Pokemon, o link de referência de cada pokemon está no final de cada carta, os materiais usados para desenvolver esse projeto foram.
 > [MDN Web Docs](https://developer.mozilla.org/pt-BR/);
 
 
