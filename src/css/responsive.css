@@ -1,0 +1,37 @@
+@media(max-width: 500px){
+    .personagens-slider {
+        gap: 20px;
+    }
+
+    .lista-personagens {
+        width: 240px;
+        margin: 13px;
+    }
+
+    .img-btn {
+        height: 50px;
+    }
+
+    h1.cabecalho {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+
+    .elementos {
+        margin: 1px;
+    }
+}
+
+@media(min-height: 801px) and (max-height: 1000px){
+    .cabecalho {
+        margin-bottom: 100px;
+        font-size: 70px;
+    }
+}
+
+@media(min-height: 1001px){
+    .cabecalho {
+    font-size: 80px;
+    margin-bottom: 150px;
+    }
+}
